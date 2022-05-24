@@ -1,0 +1,178 @@
+---
+layout: post-Henry
+title: Jekyll and KaTeX
+katex: True
+tags: Jekyll
+authors: Henry
+---
+## Why Jekyll
+There are **many ways** to create a website. Most people stick with "Website Builder" tools like [wix](https://www.wix.com/), the major benefit being [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG). It is also relatively easier to build as you don't need to work with command prompt and debug. However, for people using GitHub and are interesting in computing, since jekyll supports Github Pages, it is always almost recommended to use Jekyll.
+
+This comparision is similar to $$\LaTeX$$ vs **Word**. It is easier to work with word, but mathematicians may pick on you if you use word for your thesis! 
+
+## How to include Math Symbols in Jekyll
+Note that in this website, we use $$\KaTeX$$ instead of $$\LaTeX$$. 
+
+If you want to use $$\KaTeX$$ in Jekyll, you first need to copy the **_layouts** and **_includes** files in [GitHub](https://github.com/jekyll/minima). Afterwards, you need to include the necessary gems. Please refer to my Gemfile:
+
+```bash
+source "https://rubygems.org"
+
+
+gem "minima"
+
+group :jekyll_plugins do
+  
+  gem "jekyll-seo-tag"
+  gem 'kramdown-parser-gfm'
+  gem "sprockets", "~> 3.7" 
+  gem 'jekyll-remote-theme'
+  gem 'jekyll-feed'
+  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+end
+
+gem 'duktape'
+gem 'katex'
+gem 'execjs'
+gem 'kramdown-math-katex' 
+
+gem "webrick"
+
+gem 'jekyll-sitemap'
+```
+And afterwards you need to include the [starter template](https://katex.org/docs/browser.html) in your custom-head.html in _includes. Just like this:
+```bash
+{% comment %}
+  Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
+
+  1. Head over to https://realfavicongenerator.net/ to add your own favicons.
+  2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
+{% endcomment %}
+<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  </head>
+</html>
+```
+
+How it works is that **head.html** has a line:
+```bash 
+include custom-head.html
+```
+
+So the content in custom-head.html is included in **head.html**. This content is included in **default.html** as it has a line called:
+
+```bash
+include head.html 
+```
+Which is included in post-Henry.html as it contains **default.html**. We have stated in the front matter:
+
+```bash
+---
+layout: post-Henry
+title: Jekyll and KaTeX
+katex: True
+catergories: Henry Yip
+---
+```
+And therefore $$\KaTeX$$ is included in this page!
+
+
+## A further showcase of the complexity of Jekyll
+On the top of this page, you can see my social media links with 4 cute avatars. Guess what I need to code? (I copied the outline and edited the details. All credits to the [original author](https://ranvir.xyz/blog/why-and-how-to-add-social-sharing-buttons-on-your-jekyll-blog-using-github-pages/#free-advertising-for-your-jekyll-blog-using-social-share-buttons))
+```bash
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<div id="share-bar-H.html">
+
+    <h4><b>This page is written by Henry Yip. Please Follow Me:</b></h4>
+
+    <div class="share-buttons">
+        <a  href="https://www.facebook.com/yip.henry.940/"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Facebook" >
+            <i class="fa fa-facebook-official share-button"> Facebook</i>
+        </a>
+
+        <a  href="https://www.linkedin.com/in/henry-yip-100b05222/"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="LinkedIn" >
+            <i class="fa fa-linkedin share-button"> Linkedin</i>
+        </a>
+
+        <a  href="https://www.instagram.com/henryyiphoyin/"
+            title="Instagram" >
+            <i class="fa fa-instagram share-button"> Instagram</i>
+        </a>
+
+        <a  href="https://github.com/Henry-Yip"
+        title="Github" >
+        <i class="fa fa-github share-button"> Github</i>
+    </a>
+    </div>
+
+</div>
+<style type="text/css">
+/* Share Bar */
+#share-bar {
+    font-size: 20px;
+}
+/* Title */
+#share-bar h4 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+/* All buttons */
+.share-buttons {
+}
+/* Each button */
+.share-button {
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    border: 1px solid #D3D6D2;
+    padding: 5px 10px 5px 10px;
+}
+.share-button:hover {
+    opacity: 1;
+    color: #f1e101;
+}
+/* Facebook button */
+.fa-facebook-official {
+    color: #3b5998;
+}
+.fa-facebook-official:hover {
+    background-color: #3b5998;
+}
+/* LinkedIn button */
+.fa-linkedin {
+    color: #007bb5;
+}
+.fa-linkedin:hover {
+    background-color: #3b5998;
+}
+/* Instagram button */
+.fa-instagram {
+    color: #DD2A78;
+}
+.fa-instagram:hover {
+    background-color: #3b5998;
+}
+/* Instagram button */
+.fa-github {
+    color: #171515;
+}
+.fa-github:hover {
+    background-color: #3b5998;
+}
+    
+</style>
+```
+And so you can see it's really complicated!
