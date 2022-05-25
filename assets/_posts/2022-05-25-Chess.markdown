@@ -1,0 +1,49 @@
+---
+layout: post-Henry
+title: Machine Battle (Stockfish vs Fairy Max) analysis #1
+katex: False
+tags: Chess
+authors: Henry
+---
+I have installed two chess engines -Fairy Max and Stockfish in my computer so they can play bullet (i.e. 1 min each, no increments). As a chess variation enthuasiast, I also disabled castling to add more variety (yay!) (My next post will likely be on Chess960, a chess variations)
+Stockfish plays white and wins the match (Quite obvious to be honest)
+
+The PGN is here:
+You can analyse it for free in [lichess analysis](https://lichess.org/analysis). Just paste the PGN in the box.
+
+```bash
+1. e4 Nf6 2. e5 Ne4 3. d3 Nc5 4. d4 Ne6 5. d5 Nc5 6. Nc3 d6 7. Nf3 Bf5 8. Nd4 Bd7 9. Qe2 e6 10. b4 Nca6 11. Rb1 c5 12. dxe6 fxe6 13. bxc5 dxc5 14. Ndb5 Nc6 15. Ne4 Qa5+ 16. c3 Kf7 17. Qh5+ Kg8 18. Nf6+ gxf6 19. exf6 Nd8 20. Be2 Be8 21. Qxe8 Qxa2 22. Rb2 Qd5 23. Rd2 Qxg2 24. Rf1 Qg6 25. f7+ Kg7 26. Rxd8 Rxd8 27. Qxd8 Kxf7 28. f4 Kg8 29. f5 Qg7 30. Bh6 Qxh6 31. Rg1+ Qg6 32. fxg6 hxg6 33. Qe8 Rh6 34. Qxe6+ Kg7 35. Bc4 Rxh2 36. Rxg6+ Kh7 37. Qg8#
+```
+
+This is an example of the Alekhine's defence, with a suprising move 2...Ne4? (Also known as Mokele-mbembe variation) that results in a rather significant advantage for white after 3.d3 (In fact, 3.d4 is a better move) As explained in [this post](https://www.chess.com/blog/ThePawnSlayer/opening-myths-the-mystery-of-the-mokele-mbembe-variation)
+
+## A slight detour -- Mokele-mbembe variation
+
+### 3...f6
+After 3...f6 white is simply better because the knight on e4 is desparately alone, allowing developmental moves like 4.Bd3. After that we can analyse two moves:
+
+#### 4...d5
+Seems like the only acceptable move with (+1.8) (depth 24). After that we can try 5.Nc3 which attacks d5. If the opponent takes our knight Qd5# is final nail in the coffin, as the innocent move g6 is met by Bxg6! (! Means Good Move) and black is strictly losing.
+
+#### 4...f5??
+4...f5?? has (+5.9) (depth 24)
+The reason is 5. f3 traps the knight. White is also much more developed.
+
+### 3...e6
+After 4.Bd3 , 4...d5 is again, the best move as 4...Ng5 is simply trapping the knight after 5.h4. 5.kh3! is surprisingly good as 5...kg5 is no longer available
+
+## Actual Game
+After 
+```bash
+1. e4 Nf6 2. e5 Ne4 3. d3 Nc5 4. d4 Ne6 5. d5 
+```
+**white** is just strictly better. The knight is being chased around!
+
+## The Blunder
+
+The Blunder occurs at 14...Nc6??. Black simply forgot that the queen is threatening mate with the knight and bishop and without moving 14...be7. After several attacks by white, black has to kingwalk to g8 after some very desperate checks, but all was over at that point.
+
+
+
+
+
