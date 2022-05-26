@@ -22,4 +22,3 @@ gem "webrick"
 
 gem 'jekyll-sitemap'
 
-

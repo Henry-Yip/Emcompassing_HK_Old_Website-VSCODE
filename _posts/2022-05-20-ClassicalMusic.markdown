@@ -10,6 +10,8 @@ I am a classical music enthusiast. I planned to study a Master in Arts, and even
 
 Over the past 4 years, I have compiled a list of my favourite recordings.
 
+I like way too many pieces, however, I have only listed some here:
+
 
 - [**Bach** Art of Fugue](https://www.youtube.com/watch?v=Y9OUfBDIGhw&t=167s)
 
@@ -44,9 +46,13 @@ In my humble opinion, the apex of Beethoven's music. Unbelievably fiery ending. 
 
 The blend of classical and romantic music, with a rigorous structure but a romantic expression. The most rigorous beginning turns into a romantic fugue-esque development, with a bold use of strings that blends with the woodwinds. The theme turns abruptly into romantic solos, only to be concluded by more strings. Victorious.
 
-- [**Hummel Piano Concerto No.2](https://www.youtube.com/watch?v=iYr7z1RYgaM&t=1507s)
+- [**Hummel** Piano Concerto No.2](https://www.youtube.com/watch?v=iYr7z1RYgaM&t=1507s)
 
-An obscure composer, blending the styles of chopin, beethoven and even Haydn. Quite a virtuosic concerto, just listen to the last minute
+An obscure composer, blending the styles of chopin, beethoven and even Haydn. Quite a virtuosic concerto, just listen to the last minute. My favourite part is around 5:00, you can almost hear Chopin but there is clearly a classical structure backbone.
+
+- [**Brahms** - Piano Quartet No.1 in G minor, Op.25](https://www.youtube.com/watch?v=7BifP-9elgE&t=1990s)
+
+Easily my favourite classical piece, the relentless finale is always building up with interesting ideas. The powerful last movement has that kind of "stickness" feeling without a second of relaxation, with contrasting short and long notes [32:24] vs [34:40].
 
 - [**Tchaikovsky** Romeo and Juliet](https://www.youtube.com/watch?v=f6qZUCi7ToQ)
 

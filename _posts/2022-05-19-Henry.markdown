@@ -7,7 +7,7 @@ categories: Henry
 ---
 Hi everyone! My name is Henry Yip (Chinese: 葉昊彥), the main contributor of this website.
 
-My [CV is available if you press the link]((https://henry-yip.github.io/assets/CV.pdf))
+My [CV is available if you press the link](henry-yip.github.io/assets/CV.pdf)
 
 I have a plethora of interests: 
 

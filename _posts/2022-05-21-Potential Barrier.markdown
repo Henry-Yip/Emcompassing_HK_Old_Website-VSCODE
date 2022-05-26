@@ -26,5 +26,7 @@ Meanwhile, $$p=\hbar k$$, where $$k=\frac{2\pi}{\lambda}$$. After cancellation, 
 
 $$\dfrac{\partial^2\Psi(x)}{\partial x^2}+k^2[\Psi(x)]=0$$
 
+This is a LODE and can be solved by 
+
 
 
