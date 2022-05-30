@@ -1,0 +1,12 @@
+---
+layout: post-Amanda
+title: Amanda Ng's Introduction
+katex: True
+comments: True
+categories: Amanda
+---
+Amanda Ng
+Mathematics, Statistics
+waiyuamanda.ng@mail.utoronto.ca
+
+Hi, my name is Amanda. I am a second-year from University of Toronto who double majoring Mathematics and Statistics. My interest fields are the general use of statistics in business field and communication through data. In the coming academic year, I will be joining a research team to work on a project namely “Building a statistical communication and consulting community across disciplines”. I will also be working as an assistant in the First Year Learning Community of MAT137 to further enhance my skills in presenting mathematical knowledge to first year students who will be taking the course.
