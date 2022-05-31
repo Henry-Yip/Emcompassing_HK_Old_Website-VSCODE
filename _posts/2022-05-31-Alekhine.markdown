@@ -1,3 +1,14 @@
+---
+layout: post-Henry
+title: Alekhine Defense
+katex: False
+---
+## Who is Alekhine?
+
+
+## Four Pawns Attack
+
+
 As explained in [this post](https://www.chess.com/blog/ThePawnSlayer/opening-myths-the-mystery-of-the-mokele-mbembe-variation)
 
 ## A slight detour -- Mokele-mbembe variation
@@ -13,4 +24,4 @@ Seems like the only acceptable move with (+1.8) (depth 24). After that we can tr
 The reason is 5. f3 traps the knight. White is also much more developed.
 
 ### 3...e6
-After 4.Bd3 , 4...d5 is again, the best move as 4...Ng5 is simply trapping the knight after 5.h4. 5.kh3! is surprisingly good as 5...kg5 is no longer available
+After 4.Bd3 , 4...d5 is again, the best move as 4...Ng5 is simply trapping the knight after 5.h4. 5.Nh3! is surprisingly good as 5...kg5 is no longer available

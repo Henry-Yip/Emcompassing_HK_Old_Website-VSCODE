@@ -19,5 +19,5 @@ I have made a number of Tutorials regarding the static site generator, Jekyll, w
 
  #3 [How to change the skins (background colour) in Jekyll using _sass:]({% link _posts/2022-05-22-Skins.markdown %})
  
- #4 [Jekyll Problems Q&A](({% link _posts/2022-05-28-shortjekyll.markdown %}))
+ #4 [Jekyll Problems Q&A]({% link _posts/2022-05-28-shortjekyll.markdown %}))
  
