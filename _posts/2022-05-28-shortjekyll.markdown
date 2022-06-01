@@ -1,7 +1,8 @@
 ---
 layout: post-Henry
-title: Jekyll Problems Q&A
+title: Jekyll Problems Q&A (Recommended!)
 katex: False
+tags: Jekyll
 ---
 **#1 Insufficient resources online**
 
@@ -48,6 +49,24 @@ tags: Chess
 authors: Henry
 ---
 ```
+
+**#4 How to see the engagement rate of my websites?**
+
+Login to Google Analytics and obtain a tracking ID (very easy) Create a file named **analytics.html** under _includes. Insert this code:
+
+```bash
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=X-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'X-XXXXXXXXXX');
+</script>
+```
+Where X-XXXXXXXXXX is your tracking ID. 
+You can check the users by city, number of clicks, engagement rate etc, but information is extremely limited and isn't that useful. It's still pretty cool, however.
 
 
 

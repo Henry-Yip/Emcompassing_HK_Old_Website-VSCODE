@@ -6,6 +6,8 @@ katex: False
 Chess consists of 3 parts: Opening, Middlegame and Endgame
 
 ## How to Improve Openings
+
+First, make sure to check my posts on [chess openings]
 Openings have set theories and you need to grind through it. If you don't have much time, I recommend you to play openings like London, where your moves don't vary with much with how your opponent plays.
 
 If you don't play those types of openings, you really need to memorize **almost all** of the variations. For example, in [Alekhine Defense](https://en.wikipedia.org/wiki/Alekhine%27s_Defence)), if you play:
@@ -25,5 +27,17 @@ Go to Lichess, create an account, and do all the Healthy Mix Puzzles. Generally 
 (I personally have an account and my puzzles rating is around 2150, which is fairly decent but not the best)
 
 You can analyse famous games by yourselves. Get yourself in a random position and think: What will I do next? Then analyse by stockfish or find analysis videos in Youtube.
+
+## How to Improve Endgame
+
+Endgame theories are all set and highly theoretical.
+
+In order to suceed, you need to understand the theory behind the endgame tactics.
+
+First of all, learn how to checkmate in endgames. For example, how to checkmate with a Queen and a king? What about 2 knights? 1 knight and 1 bishop? 
+
+Afterwards, learn how to draw endgames. The theories are quite complicated but as long as you understand, you can draw in every scenario. 
+
+
 
 

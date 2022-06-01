@@ -1,7 +1,7 @@
 ---
 layout: post-Michael
 title: Michael So's Introduction
-katex: True
+katex: False
 comments: True
 categories: Michael 
 ---

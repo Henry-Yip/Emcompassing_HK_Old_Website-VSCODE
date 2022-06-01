@@ -1,7 +1,7 @@
 ---
 layout: post-Henry
 title: Changing Skins in Minima
-katex: True
+katex: False
 authors: Henry
 ---
 ## Introduction

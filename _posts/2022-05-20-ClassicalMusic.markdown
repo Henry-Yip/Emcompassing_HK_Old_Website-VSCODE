@@ -1,7 +1,7 @@
 ---
 layout: post-Henry
 title: Classical Music Playlist  
-katex: True
+katex: False
 tags: Music
 authors: Henry
 ---

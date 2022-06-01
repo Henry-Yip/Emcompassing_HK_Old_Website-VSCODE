@@ -1,7 +1,7 @@
 ---
 layout: post-Amanda
 title: Amanda Ng's Introduction
-katex: True
+katex: False
 comments: True
 categories: Amanda
 ---
