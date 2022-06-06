@@ -1,0 +1,9 @@
+---
+layout: post-Henry
+title: Chess AI Analysis
+katex: False
+tags: Chess
+authors: Henry
+---
+ - [Game 1]({% link _posts/2022-06-05-Game1.markdown %})
+ - [Game 2]({% link _posts/2022-06-05-Game2.markdown %})

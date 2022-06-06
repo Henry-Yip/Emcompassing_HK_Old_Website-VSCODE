@@ -9,6 +9,8 @@ There are some interesting traps for the Petrov Defense:
 ```
 Where the discovery check wins the Queen and black is immediately lost (+8.0!)
 
+<iframe width=600 height=371 src="https://lichess.org/study/embed/0sUJ3ZJ6/45byvdS6" frameborder=0></iframe>
+
 # Famous lines:
 **Classical Attack, Marshall Variation**
 That was the first main line I learnt back then:

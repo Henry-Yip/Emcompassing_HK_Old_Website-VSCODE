@@ -1,7 +1,7 @@
 ---
 layout: post-Henry
 title: Henry Yip's Introduction
-katex: True
+katex: False
 comments: True
 categories: Henry
 ---
@@ -11,6 +11,8 @@ categories: Henry
   2021-2025 **BSc Mathematical Physics (Hons), University of Edinburgh**
 
 My [CV is available if you press the link]({{site.url}}/assets/CV.pdf)
+
+First of all, please check [my post on my **random thoughts!**]({% link _posts/2022-06-03-MyRandomThoughts.markdown %})
 
 I have a plethora of interests: 
 
@@ -29,10 +31,10 @@ I play both Piano and Violin, and I am officially a Mahlerian, while also listen
 
 ### Running
 
-I used to run in SPCC Cross Country Team, specilizing in 5000m and 10000m while also, occasionally, running 400m and 1500m. I am definitely not a good runner as I don't really practice. My proudest time is 23 mins 04 secs - 6km, which was recorded in Nov 2019 in Bowen Road. It wasn't impressive for sure, but I am fine with that.
+I used to run in **SPCC Cross Country Team**, specilizing in 5000m and 10000m while also, occasionally, running 400m and 1500m. I am definitely not a good runner as I don't really practice strategically. My proudest time is 23 mins 04 secs - 6km, which was recorded in Nov 2019 in Bowen Road. It wasn't impressive for sure, but I am fine with that.
 
 ### Chess
 
 Chess is something I picked up a year ago. I suck at all formats so the only thing I really do is analyse positions and chess puzzles and learn openings. I am about to create a very extensive section on this. Hope you'll enjoy!
-More on: [Chess Openings]({% link _posts/2022-05-26-Chess openings.markdown %})
+More on: [Chess Openings]({% link _posts/2022-05-26-ChessSeries.markdown %})
 

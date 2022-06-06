@@ -1,12 +1,16 @@
 ---
 layout: post-Henry
-title: Machine Battle (Stockfish vs Fairy Max) analysis #1
+title: Game 1
 katex: False
-tags: Chess
-authors: Henry
 ---
-I have installed two chess engines -Fairy Max and Stockfish in my computer so they can play bullet (i.e. 1 min each, no increments). As a chess variation enthuasiast, I also disabled castling to add more variety (yay!) (My next post will likely be on Chess960, a chess variations)
-Stockfish plays white and wins the match (Quite obvious to be honest)
+I have installed two chess engines -Fairy Max and Stockfish in my computer so they can play bullet (i.e. 1 min each, no increments). As a chess variation enthuasiast, I also disabled castling to add more variety (yay!) (My next post will likely be on Chess960, a chess variation)
+
+**Rapid Game 10 minutes, no increments**
+
+ - **White: Stockfish**
+ - **Black: Fairymax**
+
+<iframe width=600 height=371 src="https://lichess.org/study/embed/ExVsKSc6/85Jh9w7f" frameborder=0></iframe>
 
 The PGN is here:
 You can analyse it for free in [lichess analysis](https://lichess.org/analysis). Just paste the PGN in the box.
@@ -26,9 +30,7 @@ After
 
 ## The Blunder
 
-The Blunder occurs at 14...Nc6??. Black simply forgot that the queen is threatening mate with the knight and bishop and without moving 14...be7. After several attacks by white, black has to kingwalk to g8 after some very desperate checks, but all was over at that point.
+The Blunder occurs at 14...Nc6??. Black simply forgot that the queen is threatening mate with the knight and bishop and without moving 14...Be7. After several attacks by white, black has to kingwalk to g8 after some very desperate checks, but all was over at that point.
 
-
-
-
-
+<iframe width=600 height=371 src="https://lichess.org/study/embed/ExVsKSc6/85Jh9w7f#28" frameborder=0></iframe>
+ 

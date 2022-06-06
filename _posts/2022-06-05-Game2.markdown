@@ -1,0 +1,11 @@
+---
+layout: post-Henry
+title: Game 2
+katex: False
+---
+**Rapid Game 10 minutes, no increments**
+
+ - **White: Stockfish**
+ - **Black: Fairymax**
+
+<iframe width=600 height=371 src="https://lichess.org/study/embed/NZrn1Y3s/vBRl3zog" frameborder=0></iframe>

@@ -18,7 +18,7 @@ There are 3 suggested ways to download the pdf.
 
 ## 1. Click this link
 
-[Here!]({{site.url}}/assets/CV.pdf)
+[Here!]({{site.url}}/assets/Astro.pdf)
 
 
 This is for those who doesn't want to know how $$\LaTeX$$ works. The downside is that you cannot edit the document if you want!

@@ -1,0 +1,13 @@
+---
+layout: post-Andy
+title: Andy Ng's Introduction
+katex: False
+comments: True
+categories: Andy
+---
+## Education 
+  2015-2021 **St Paul's Co-educational College**
+
+  2021-2025 **The University of Hong Kong**
+
+
