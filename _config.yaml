@@ -32,3 +32,20 @@ permalink: /:year/:month/:day/:title:output_ext
 
 minima:
   skin: solarized
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-archives
+
+algolia:
+   application_id: G0D1JTWKBL
+   index_name: ScienceProject
+   search_only_api_key: 6eab7e21586f15703940cf9304020502 
+
+disqus:
+    shortname: https-henry-yip-github-io
+

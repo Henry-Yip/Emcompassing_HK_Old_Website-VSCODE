@@ -21,7 +21,7 @@ Of course, there are [Github documentations](https://jekyllrb.com/docs/) that ar
 **#2 Canonical url being localhost**
 
 **Solution:**
-In command prompt, chdir to the place you saved the files, type 
+In command prompt, chdir into the place you saved the files, type 
 ```bash
 bundle exec jekyll build
 ```
@@ -29,7 +29,7 @@ You should be able to see:
 ```bash
 Destination: C:/Users/.../_site
 ```
-Then after you push origin the problem should be solved!
+Then after you push origin the problem should be solved!ccd
 
 **#3 Unable to make different headers for different people**
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: This Website
+comments: true
 ---
 
 ### This Website
@@ -21,13 +22,12 @@ Any enquiries please contact **s2231321@ed.ac.uk**
 ### Main Contributors:
 ## Leader:
  - [Henry Yip]({% link _posts/2022-05-19-Henry.markdown %})
-
+ - Leo Chow
 ### Contributors (In alphabetical order of first name):
  - Andy Ng 
  - [Amanda Ng]({% link _posts/2022-05-28-Amanda.markdown %})
  - Grace Yang
  - Isaac Chan
- - Leo Chow
  - Lorian Richmond
  - [Michael So]({% link _posts/2022-05-27-Michael So.markdown %})
  - Venice Yip

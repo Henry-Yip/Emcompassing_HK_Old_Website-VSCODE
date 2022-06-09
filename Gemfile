@@ -11,14 +11,18 @@ group :jekyll_plugins do
   gem 'jekyll-remote-theme'
   gem 'jekyll-feed'
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-end
+  gem 'jekyll-algolia'
+  gem 'jekyll', '~> 4.2.2'
 
 gem 'duktape'
 gem 'katex'
 gem 'execjs'
 gem 'kramdown-math-katex' 
-
+gem "jekyll-paginate"
+gem "jekyll-gist"
+gem "jemoji"
+gem "jekyll-archives"
 gem "webrick"
-
 gem 'jekyll-sitemap'
 
+end
