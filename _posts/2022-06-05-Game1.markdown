@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Game 1
+title: Game 1 (Henry)
 katex: False
 ---
 I have installed two chess engines -Fairy Max and Stockfish in my computer so they can play bullet (i.e. 1 min each, no increments). As a chess variation enthuasiast, **I also disabled castling to add more variety (yay!)** (My next post will likely be on Chess960, a chess variation)

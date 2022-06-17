@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Jekyll Problems Q&A (Recommended!)
+title: Jekyll Problems Q&A (Henry)
 katex: False
 tags: Jekyll
 ---
@@ -29,7 +29,7 @@ You should be able to see:
 ```bash
 Destination: C:/Users/.../_site
 ```
-Then after you push origin the problem should be solved!ccd
+Then after you push origin the problem should be solved!
 
 **#3 Unable to make different headers for different people**
 

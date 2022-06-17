@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Astrophysics
+title: Astrophysics (Henry)
 katex: True
 tags: Physics
 authors: Henry

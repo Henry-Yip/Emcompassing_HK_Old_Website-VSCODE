@@ -1,0 +1,11 @@
+---
+layout: post-Henry
+title: Game 3 (Henry)
+katex: False
+---
+**Bullet Game - 1 minute**
+
+ - **White: Fairymax**
+ - **Black: Fairymax**
+
+<iframe width=600 height=371 src="https://lichess.org/study/embed/5IvhNCsR/QSyRpQbM#16" frameborder=0></iframe>

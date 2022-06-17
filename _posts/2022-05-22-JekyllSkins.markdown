@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Changing Skins in Minima
+title: Changing Skins in Minima (Henry)
 katex: False
 authors: Henry
 ---

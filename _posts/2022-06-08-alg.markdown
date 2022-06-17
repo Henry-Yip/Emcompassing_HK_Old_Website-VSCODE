@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Introduction to Algolia
+title: Introduction to Algolia (Henry)
 katex: False
 ---
 Algolia Search is one of the best ways to enable searching in your Jekyll Website. For Windows users, all you need to do is to have a usuable Algolia account, cd into your directory and type:

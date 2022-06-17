@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Game 2
+title: Game 2 (Henry)
 katex: False
 ---
 **Rapid Game 10 minutes, no increments**

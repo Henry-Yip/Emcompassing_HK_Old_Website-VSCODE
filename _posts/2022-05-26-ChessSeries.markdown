@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Chess Series (Most Recommended!)
+title: Chess Series (Henry) (Most Recommended!)
 katex: False
 tags: Chess
 authors: Henry

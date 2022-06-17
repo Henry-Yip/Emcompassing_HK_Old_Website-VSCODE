@@ -1,11 +1,10 @@
 ---
 layout: post-Henry
-title: Daily Chess Puzzles (Updated Automatically)
+title: Daily Chess Puzzles (Henry) (Updated Automatically)
 katex: False
 tags: Chess
 authors: Henry
 ---
-
  - **Your Daily Puzzle from Lichess!**
  - **It is updated daily and automatically!**
  - **Click in to solve it/check analysis!**

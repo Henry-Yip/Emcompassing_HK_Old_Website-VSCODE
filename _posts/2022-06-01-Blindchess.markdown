@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: How to learn Blind Chess?
+title: How to learn Blind Chess? (Henry)
 katex: False
 ---
 ### Motivation

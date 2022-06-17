@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: How should I learn Chess?
+title: How should I learn Chess? (Henry)
 katex: False
 ---
 Chess consists of 3 parts: Opening, Middlegame and Endgame

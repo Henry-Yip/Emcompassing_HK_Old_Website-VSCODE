@@ -1,0 +1,10 @@
+---
+layout: post-Henry
+title: Coding Game (C++)
+katex: False
+tags: Coding
+---
+Just because I'm bored... Each of these take a _really_ short period of time anyways...
+
+ * [Cutoff Game]({% link _posts/2022-06-16-cutoff.markdown %})
+ * [Prime Checker]({% link _posts/2022-06-16-Prime.markdown %})

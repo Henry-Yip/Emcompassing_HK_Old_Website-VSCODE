@@ -1,9 +1,10 @@
 ---
 layout: post-Henry
-title: Chess AI Analysis
+title: Chess AI Analysis (Henry)
 katex: False
 tags: Chess
 authors: Henry
 ---
  - [Game 1]({% link _posts/2022-06-05-Game1.markdown %})
  - [Game 2]({% link _posts/2022-06-05-Game2.markdown %})
+ - [Game 3]({% link _posts/2022-06-12-Game3.markdown %})

@@ -1,8 +1,10 @@
 ---
 layout: post-Henry
-title: Petrov Defence
+title: Petrov Defence (Henry)
 katex: False
 ---
+
+## Famous Traps
 There are some interesting traps for the Petrov Defense:
 ```bash
 1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nxe4 4. Qe2 Nd6 5. Nc6+
@@ -10,9 +12,8 @@ There are some interesting traps for the Petrov Defense:
 Where the discovery check wins the Queen and black is immediately lost (+8.0!)
 
 <iframe width=600 height=371 src="https://lichess.org/study/embed/0sUJ3ZJ6/45byvdS6" frameborder=0></iframe>
-Also note the infamous stafford gambit. Eric Rosen's "Oh no my Queen! line:
-<iframe width=600 height=371 src="https://lichess.org/study/embed/DrktxY9w/DCYDkGxo#12" frameborder=0></iframe>
 
+Also Please Check the [Stafford Gambit]({% link _posts/2022-06-10-Stafford.markdown %})
 # Famous lines:
 **Classical Attack, Marshall Variation**
 That was the first main line I learnt back then:

@@ -1,0 +1,22 @@
+---
+layout: post-Henry
+title: Stafford Gambit
+katex: False
+tags: Chess
+---
+People (at least me) always relate Stafford Gambit with  **IM Eric Rosen**, a famous chess streamer. It is a variation of the [Petrov Defense]({% link _posts/2022-05-27-Petrov.markdown %}) with **3...Nc6?**, a theoreticaly lost position for black, assuming perfect play.
+
+Top chess engines, like **Stockfish**, don't favour these types of gambits because black is lost in material, and with deep enough analysis you can almost always avoid blundering and convert your advantage into a win. However, under tight time control, (like in bullet/blitz), you can always fall into traps and lose tons of material, and that is the main goal of stafford gambit.
+
+Please Note Eric's **"Oh No My Queen!"** Line
+<iframe width=600 height=371 src="https://lichess.org/study/embed/DrktxY9w/DCYDkGxo#12" frameborder=0></iframe>
+
+White thinks black is blundering and losing its queen after **6...Nxe4!!**, but simply forgot white can checkmate in a few moves despite down a queen.
+
+There are Youtube Videos on the latest traps (there are infinitely many traps for black!). There is a very recent one posted on Eric's Youtube Channel, below I'll show the game (analysed by **Stockfish**)
+
+In this position, please try to find the best continutation (there is **only** one, **a brilliant(!!) move**).
+
+**12...Ne5!!**
+
+<iframe width=600 height=371 src="https://lichess.org/study/embed/jaZFCHyr/vE6TdK8b#23" frameborder=0></iframe>

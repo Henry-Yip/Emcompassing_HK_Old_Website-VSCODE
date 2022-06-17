@@ -23,6 +23,7 @@ Any enquiries please contact **s2231321@ed.ac.uk**
 ## Leader:
  - [Henry Yip]({% link _posts/2022-05-19-Henry.markdown %})
  - Leo Chow
+
 ### Contributors (In alphabetical order of first name):
  - Andy Ng 
  - [Amanda Ng]({% link _posts/2022-05-28-Amanda.markdown %})

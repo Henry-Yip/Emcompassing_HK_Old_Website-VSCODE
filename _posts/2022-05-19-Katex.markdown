@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Jekyll and KaTeX
+title: Jekyll and KaTeX (Henry)
 katex: True
 authors: Henry
 ---

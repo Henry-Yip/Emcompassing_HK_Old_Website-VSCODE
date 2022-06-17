@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Alekhine Defense
+title: Alekhine Defense (Henry)
 katex: False
 ---
 ## **Four Pawns Attack**

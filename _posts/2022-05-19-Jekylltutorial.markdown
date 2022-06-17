@@ -1,6 +1,6 @@
 ---
 layout: post-Henry
-title: Jekyll Tutorials
+title: Jekyll Tutorials (Henry)
 katex: False
 tags: Jekyll
 ---
@@ -12,11 +12,11 @@ This comparision is similar to $$\LaTeX$$ vs **Word**. It is easier to work with
 ## Introduction to this series:
 I have made a number of Tutorials regarding the static site generator, Jekyll, which builds this website:
 
- #1 [Complexity of Jekyll vs WYSIMYG websites]({% link _posts/2022-05-19-JekyllComparision.markdown %})
+ #1 [Downloading and Using Jekyll (Window Users)]({% link _posts/2022-05-19-JekyllComparision.markdown %})
 
- #2 [How to enable $$\LaTeX$$ style mathematical symbols in Jekyll:]({% link _posts/2022-05-19-Katex.markdown %})
+ #2 [How to enable $$\LaTeX$$ style mathematical symbols in Jekyll]({% link _posts/2022-05-19-Katex.markdown %})
 
 
- #3 [How to change the skins (background colour) in Jekyll using _sass:]({% link _posts/2022-05-22-JekyllSkins.markdown %})
+ #3 [How to change the skins (background colour) in Jekyll using _sass]({% link _posts/2022-05-22-JekyllSkins.markdown %})
  
 
