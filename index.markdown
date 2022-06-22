@@ -17,7 +17,7 @@ This website is created so people can share their ideas from all around the worl
 Any type of content of significance will be entertained. While it needs not be too academic, pure entertainment, for example, gaming strategies, is not allowed!
 
 ### Enquiries
-Any enquiries please contact **s2231321@ed.ac.uk** 
+Any enquiries please contact **[s2231321@ed.ac.uk](mailto:s2231321@ed.ac.uk)** 
 
 ### Main Contributors:
 ## Leader:
