@@ -7,4 +7,5 @@ tags: Coding
 Just because I'm bored... Each of these take a _really_ short period of time anyways...
 
  * [Cutoff Game]({% link _posts/2022-06-16-cutoff.markdown %})
- * [Prime Checker]({% link _posts/2022-06-16-Prime.markdown %})
+ * [Twin Primes]({% link _posts/2022-06-16-Prime.markdown %})
+ * [Prime Gap]({% link _posts/2022-06-16-primegap.markdown %})

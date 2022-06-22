@@ -1,15 +1,19 @@
+# To enable RSS Feed
+name: Henry Yip 
+description: A Platform for Everyone
+url: "https://henry-yip.github.io/" 
+
+# Omittable but I still included
+feed_items: 3
+feed_update_period: daily
+feed_update_frequency: 1
+
+
+
 title: A Platform for Everyone
 email: s2231321@ed.ac.uk
-description: A Platform for Everyone
 theme: minima
-
-author:
-  name: Henry Yip
-  email: "s2231321@ed.ac.uk"
-
-
 baseurl: "" 
-url: "https://henry-yip.github.io/" 
 github_username:  
 
 remote_theme: jekyll/minima@3cdd14dff1216f561c68329e0b7420c2dc9b796a
@@ -40,6 +44,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-archives
+  - jekyll-feed
 
 algolia:
    application_id: G0D1JTWKBL
